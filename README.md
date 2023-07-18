@@ -15,4 +15,6 @@ The code is provided to you by [SEOLizer](https://www.seolizer.de).
 This library based on PHP (https://www.php.net/).
 
 ## Filelist
-- 
+- listCrawls.php (Script with mainfunction)
+
+## Use the Script
