@@ -18,3 +18,7 @@ This library based on PHP (https://www.php.net/).
 - listCrawls.php (Script with mainfunction)
 
 ## Use the Script
+- Open a terminal and enter the following command "php listCrawls.php"
+- As an output you get a list of the crawls in your ScreamingFrog
+- The script is now waiting for your input. Enter the number in front of your desired crawl and press enter.
+- The script then returns the data from the crawl.
