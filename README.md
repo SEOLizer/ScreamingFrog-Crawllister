@@ -9,9 +9,10 @@ The code is provided to you by [SEOLizer](https://www.seolizer.de).
   - MAC:
     - Install Homebrew "/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     - Install PHP with "brew install php"
-- clone this repository "clone "
+- clone this repository "clone https://github.com/SEOLizer/ScreamingFrog-Crawllister.git"
 
 ## Require
 This library based on PHP (https://www.php.net/).
 
 ## Filelist
+- 
