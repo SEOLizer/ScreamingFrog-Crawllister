@@ -25,7 +25,7 @@ function findDerbyDir($crawlDir) {
   return $str;
 }
 
-echo("ScreamingFrog-Projektliste\n");
+echo("ScreamingFrog-Projectliste\n");
 echo("----------------------------\n");
 $id = $argv[1];
 
@@ -43,7 +43,7 @@ if ($id == "") {
     echo($c . " " . $crawl["url"] . " - " . $crawl["date"] . "\n");
   }
   echo("----------------------------\n");
-  echo("Crawl-Nummer: ");
+  echo("Crawl-number: ");
   $id = trim(fgets(STDIN));
 }
 
@@ -54,9 +54,9 @@ if ($id != '') {
     if ($c == $id) {
       echo("Crawldaten:\n");
       echo("URL: " . $crawl["url"] . "\n");
-      echo("Datum: " . $crawl["date"] . "\n");
+      echo("Date: " . $crawl["date"] . "\n");
       $derbyurl = findDerbyDir($crawl["crawlDir"]);
-      echo("Derby-Verbindungsstring: jdbc:derby:" . $derbyurl . "\n");
+      echo("Derby-Connection-String: jdbc:derby:" . $derbyurl . "\n");
     }
   }
 }
