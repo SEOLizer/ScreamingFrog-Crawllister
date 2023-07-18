@@ -6,6 +6,9 @@ The code is provided to you by [SEOLizer](https://www.seolizer.de).
 
 ## Installation
 - Install PHP on your system
+  - MAC:
+    - Install Homebrew "/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)""
+    - Install PHP with "brew install php"
 - clone this repository.
 
 ## Require
